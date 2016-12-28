@@ -8,7 +8,10 @@ body {
 }
 
 p {
-	font-size: 14px;
+	font-family: 'Rubik','Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: black;
 }
 
 p.small {
@@ -27,6 +30,12 @@ a.active {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Rubik";
 	font-weight: 700;
+}
+h4{
+	font-weight: 500;
+	font-size: 14px;
+	color:@theme-primary;
+	text-align: center;
 }
 
 hr.star-light,
@@ -227,17 +236,17 @@ section.success {
             max-width: 300px;
             margin: 0 auto;
             .caption {
-                background: fade(@theme-success, 60%);
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-                transition: all ease 0.5s;
-                -webkit-transition: all ease 0.5s;
-                -moz-transition: all ease 0.5s;
-                &:hover {
-                    opacity: 1;
-                }
+            //     background: fade(@theme-success, 60%);
+            //     position: absolute;
+            //     width: 100%;
+            //     height: 100%;
+            //     opacity: 0;
+            //     transition: all ease 0.5s;
+            //     -webkit-transition: all ease 0.5s;
+            //     -moz-transition: all ease 0.5s;
+                // &:hover {
+                //     opacity: 1;
+                // }
                 .caption-content {
                     position: absolute;
                     width: 100%;
