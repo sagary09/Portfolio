@@ -3,11 +3,13 @@
 //EMS-Speech//
 
 function rollover1(ems_speech_img){
-  ems_speech_img.src = 'img/ems-speech-color.png';
+  document.getElementById('emsSpeech');
+  style.display = 'block';
 }
 function mouseaway1(ems_speech_img)
 {
-  ems_speech_img.src = 'img/ems-speech-BW.png';
+  document.getElementById('emsSpeech');
+  style.display = 'none';
 }
 //DreamOn//
 
